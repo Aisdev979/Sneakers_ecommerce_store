@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <section class="nav--section">
+      <section class="header__name">
+        <img id="menu" src="./images/icon-menu.svg" alt="">
+      <img src="./images/logo.svg" alt="Logo">
+      <nav id="nav" class="nav">
+        <img src="./images/icon-close.svg" alt="">
+        <a href="">Collections</a>
+        <a href="">Men</a>
+        <a href="">Women</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+      </nav>
+      </section>
+      <section class="header__profile">
+        <img id="cart" src="./images/icon-cart.svg" alt="cart">
+      <img src="./images/image-avatar.png" alt="profile image">
+      </section>
+    </section>
+    <section class="images">
+      <section class="main__image">
+        <section class="prev">
+          <img id="prev-image" src="./images/icon-previous.svg" alt="">
+        </section>
+        <section class="next">
+          <img id="next-image" src="./images/icon-next.svg" alt="">
+        </section>
+        <img id="cover" src="./images/image-product-1.jpg" alt="">
+      </section>
+      <section class="images__category">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="">
+        <img src="./images/image-product-2-thumbnail.jpg" alt="">
+        <img src="./images/image-product-3-thumbnail.jpg" alt="">
+        <img src="./images/image-product-4-thumbnail.jpg" alt="">
+      </section>
+    </section>
+    <section class="cart--card">
+        <h3>Cart</h3>
+        <hr>
+        <section>
+          <p>Card is empty</p>
+        </section>
+    </section>
+  </header>
+  <hr>
+  <main>
+    <section>
+      <section class="details">
+        <h1>Sneaker Company</h1>
+        <h2>Fall Limited Edition Sneakers</h2>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+          durable rubber outer sole, they'll withstand everything the weather can offer.
+        </p>
+        <section class="price">
+          <section class="recent__price">
+            <p>$125.00</p>
+            <p>50%  </p>                   
+          </section>
+          <section class="icon-previous__price">
+            <del>$250.00</del>
+          </section>                  
+        </section>
+        <section>
+          <section class="quantity">
+            <img id="minus" src="./images/icon-minus.svg" alt="">
+            <p id="product-quantity">0</p>
+            <img id="add" src="./images/icon-plus.svg" alt="">
+          </section>
+          <section>
+            <button>
+              <img src="./images/icon-cart.svg" alt="">
+              Add to cart
+            </button>
+          </section>
+        </section>
+      </section>
+    </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
